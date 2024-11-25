@@ -4,7 +4,7 @@ docs:  https://docs.composio.dev/apps/notion
 description: A modern project management tool designed for efficiency and performance.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/3589671765c8f385609d8c9039942b2143be5fe3/notion.svg
 categories: [project management, productivity]
-
+get_current_user_endpoint: /v1/users/me
 auth_schemes:
   - name: notion_oauth
     auth_mode: OAUTH2
